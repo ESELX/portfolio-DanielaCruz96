@@ -22,7 +22,7 @@ void draw() {
   background(88242);
   lights();
   translate(width/2, height/3 + 200, -0);
-  float zoom = map(mouseX, 1, width, 0.8, 10);
+  float zoom = map(mouseX, 1, width, 0.8, 25);
   scale(zoom);
   rotateZ(PI);
   rotateY(ry);
